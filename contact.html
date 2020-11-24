@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Nechifor Alexandru Constantin" />
+  <meta name="description" content="aiDesign.ro te lansează în mediul online." />
+  <meta name="keywords"
+    content="aiDesign, Web Design, SEO, Social Media Management, UI Design, UX Design, Creare Logo, Reclame, Online, Creare Site Web, Administrare Pagini" />
+  <title>aiDesign - Contact</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header>
+    <!--Nav bar - Start -->
+
+    <nav class="container">
+      <div class="navMobile">
+        <div class="logo" onclick="window.location.href='index.html'">
+          <img src="images/logo.png" alt="aiDesign logo" />
+          <p><span class="textColor">ai</span>Design</p>
+        </div>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+
+      <div class="links">
+        <ul class="nav-links">
+          <li><a href="index.html">Acasă</a></li>
+          <li><a href="servicii.html">Servicii</a></li>
+          <li><a href="portofoliu.html">Portofoliu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Nav bar - End -->
+  </header>
+
+  <section class="contact container">
+    <div class="contact-left">
+      <div class="contact-text">
+        <h1>Ia legătura cu noi</h1>
+        <p>Scrie-ne și îți răspundem în cel mai scurt timp posibil.</p>
+      </div>
+
+      <div class="contact-type">
+        <div class="c-type">
+          <img src="images/contact/email.svg" alt="email aidesign">
+          <p>contact@aiDesign.ro</p>
+        </div>
+
+        <div class="c-type">
+          <img src="images/contact/phone-call.svg" alt="phone aidesign">
+          <p>+4 075 333 999</p>
+        </div>
+
+        <div class="c-type">
+          <img src="images/contact/pin.svg" alt="location aidesign">
+          <p>Strada 1 Decembrie 1918, Tecuci</p>
+        </div>
+      </div>
+
+      <div class="contact-social">
+        <img src="images/contact/facebook.svg" alt="facebook aidesign">
+        <img src="images/contact/instagram.svg" alt="instagram aidesign">
+      </div>
+
+    </div>
+    <div class="contact-right">
+      <div class="cornerDot"></div>
+      <div class="contact-form">
+        <form action="#">
+          <label for="fname"><img src="images/contact/user.svg" alt="user aidesign">Numele tău</label>
+          <input type="text" id="fname" placeholder="Scrie numele tău...">
+
+          <label for="email"><img src="images/contact/email.svg" alt="email aidesign">Adresa de E-mail</label>
+          <input type="email" id="email" placeholder="Scrie adresa ta de E-Mail...">
+
+          <label for="message"><img src="images/contact/more.svg" alt="message aidesign">Mesaj</label>
+          <textarea name="message" cols="40" rows="7" placeholder="Scrie mesajul tău..."></textarea>
+        </form>
+      </div>
+
+      <button>Trimite</button>
+    </div>
+  </section>
+
+  <footer>
+    <h1><span class="textColor">ai</span>Design.ro</h1>
+
+    <div class="footer-content">
+      <div class="footer-Subtitle">
+        <div class="informatii">
+          <h3>Informații utile</h3>
+          <ul>
+            <li>
+              <a onclick="alert('Oops! Adresa pe care ați încercat să o accesați nu există.')">Politică de
+                confidențialitate</a>
+            </li>
+            <li>
+              <a onclick="alert('Oops! Adresa pe care ați încercat să o accesați nu există.')">Despre noi</a>
+            </li>
+            <li><a id="myBtn">Credits</a></li>
+          </ul>
+        </div>
+        <div class="follow">
+          <h3>Urmărește-ne</h3>
+          <div class="socialIcon">
+            <img src="images/facebook.png" alt="Facebook aiDesign"
+              onclick="alert('Oops! Adresa pe care ați încercat să o accesați nu există.')" />
+            <img src="images/instagram.png" alt="Instagram aiDesign"
+              onclick="alert('Oops! Adresa pe care ați încercat să o accesați nu există.')" />
+          </div>
+        </div>
+        <div class="contactFooter">
+          <h3 onclick="window.location.href='contact.html'">Contact</h3>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-email">
+      <input type="email" id="email" name="email"
+        placeholder="Introdu adresa de E-mail dacă vrei să primești noutăți" />
+
+      <button>Trimite</button>
+    </div>
+
+    <!--Modal Icons !-->
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Click on the icons</p>
+        <div class="icons">
+          <img src="images/logo.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/web-design_1352691', '_blank')" />
+          <img src="images/web-design.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/web-design_778519', '_blank')" />
+          <img src="images/seo.png" onclick="window.open('https://www.flaticon.com/free-icon/web_3596535', '_blank')" />
+          <img src="images/socialMedia.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/tap_3579119', '_blank')" />
+          <img src="images/id-card.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/id-card_3596095', '_blank')" />
+          <img src="images/settings.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/settings_3593695', '_blank')" />
+          <img src="images/pizza.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/pizza_2674065', '_blank')" />
+          <img src="images/facebook.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/facebook_733547', '_blank')" />
+          <img src="images/instagram.png"
+            onclick="window.open('https://www.flaticon.com/free-icon/instagram_1409946', '_blank')" />
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/modal.js"></script>
+  <script src="js/navbar.js "></script>
+</body>
+
+</html>
